@@ -8,11 +8,11 @@
         $num_one = $_POST['number_one'];
         $num_two = $_POST['number_two'];
 
-        $calc = new Calculator();
-        $add = $calc->add($num_one,$num_two);
-        $subs = $calc->subs($num_one,$num_two);
-        $multi = $calc->multi($num_one,$num_two);
-        $divide = $calc->divide($num_one,$num_two);
+        $calc = new Calculator($num_one,$num_two,$num_three);
+        $add = $calc->add();
+        $subs = $calc->subs();
+        $multi = $calc->multi();
+        $divide = $calc->divide();
 
         echo "Addition is". "-". $add;
         echo "<br>";

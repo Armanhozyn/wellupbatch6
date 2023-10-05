@@ -21,19 +21,8 @@ class Car{
 // Use of Object
 
 $car = new Car('yellow','BMW');
-$carTwo = new Car('black','Thar');
-
-echo $car->color;
-
-echo "<br>";
-echo $car->brand;
 
 
-
-echo "<br>";
-echo $carTwo->color;
-echo "<br>";
-echo $carTwo->brand;
 
 
 
