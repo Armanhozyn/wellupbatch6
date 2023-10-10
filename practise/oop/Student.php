@@ -2,7 +2,7 @@
 
 class Teacher{
     public $teacher_name;
-    private $password = "1234";
+    public $password = "1234";
 
     public function __construct($teacher_name)
     {
@@ -13,7 +13,7 @@ class Teacher{
         echo $this->password;
     }
 
-    private function teacherEmail(){
+    public function teacherEmail(){
         echo "Hello this is test email";
     }
 }
