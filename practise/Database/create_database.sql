@@ -1,0 +1,1 @@
+CREATE Database school_management;
