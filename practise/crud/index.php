@@ -1,11 +1,13 @@
 <?php 
-    $db = new mysqli('localhost','root','','crud');
+    $db = new mysqli('localhost','root','','students');
     if($db->connect_error){
         echo "Failed to connect db reason: ". $db->connect_error;
     }else{
         echo "Database Connected Successfully!";
     }
 
+
+    
 
 
 ?>
@@ -26,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <a href="#" class="btn btn-primary">Add Product</a>
+                <a href="add_student.php" class="btn btn-primary">Add Product</a>
             </div>
         </div>
         <div class="row">
